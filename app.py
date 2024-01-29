@@ -42,11 +42,15 @@
 
 
 #Formatted String
-first = "John"
-last = "Ian"
-message = first + "[" + last + "] is a coder"
-print(message)
+# first = "John"
+# last = "Ian"
+# message = first + "[" + last + "] is a coder"
+# print(message)
+#
+# msg = f'{first} [{last}] is a coder'
+# print(msg)
+#
 
-msg = f'{first} [{last}] is a coder'
-print(msg)
-
+#String Methods
+course = 'Python For begginers'
+print(len(course))
