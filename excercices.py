@@ -20,5 +20,7 @@
 # print(kg_weight)
 
 #[05]
-name = "Jennifer"
-print(name[1:-1])
+# name = "Jennifer"
+# print(name[1:-1])
+
+#Formatted String

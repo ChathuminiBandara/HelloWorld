@@ -29,13 +29,24 @@
 
 #" and '
 #course = "Python for 'Beginners'"
-course = 'Python for "Beginners"'
-another = course[:]
+# course = 'Python for "Beginners"'
+# another = course[:]
+#
+#
+# course = '''Hi Johnnn'''
+#
+# print(course[-4])
+# print(course[0:3])
+#
+# print(another)
 
 
-course = '''Hi Johnnn'''
+#Formatted String
+first = "John"
+last = "Ian"
+message = first + "[" + last + "] is a coder"
+print(message)
 
-#print(course[-4])
-#print(course[0:3])
+msg = f'{first} [{last}] is a coder'
+print(msg)
 
-print(another)
