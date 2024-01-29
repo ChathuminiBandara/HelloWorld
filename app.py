@@ -52,5 +52,15 @@
 #
 
 #String Methods
-course = 'Python For begginers'
+course = 'Python For beginners'
 print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find("Python"))
+print(course.replace('beginners','Absolute Beginners'))
+print(course.replace("P","K"))
+
+print('Python' in course)
+
+
+#print(course)
