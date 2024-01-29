@@ -18,3 +18,7 @@
 # weight_in_pounds = input("Enter Your Weight I Pounds Here :")
 # kg_weight =int(weight_in_pounds) * 0.45
 # print(kg_weight)
+
+#[05]
+name = "Jennifer"
+print(name[1:-1])

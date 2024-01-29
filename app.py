@@ -28,10 +28,14 @@
 
 
 #" and '
-course = "Python for 'Beginners'"
+#course = "Python for 'Beginners'"
 course = 'Python for "Beginners"'
+another = course[:]
 
-course = '''
-Hi Johnnn'''
 
-print(course[-4])
+course = '''Hi Johnnn'''
+
+#print(course[-4])
+#print(course[0:3])
+
+print(another)
