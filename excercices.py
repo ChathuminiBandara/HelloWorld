@@ -13,3 +13,5 @@
 name = input("What is your name ?")
 color = input("What is your Fav Color ?")
 print(name +" likes "+ color)
+
+
